@@ -12,6 +12,10 @@ requireしてbundleするだけ
 
     yarn run build
 
+productionビルド(圧縮とか)
+
+    yarn run build:production
+
 ## プロジェクト構造
 
 - index.js - 読み込む + global(window)に追加する
