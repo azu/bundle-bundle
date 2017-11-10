@@ -11,8 +11,18 @@ requireしてbundleするだけ
     yarn run build
 
 - index.js - 読み込む + global(window)に追加する
+
+```js
+// window.jQueryとwindow.lodashをはやす
+// window.$window._をはやす
+global.jQuery = global.$ = require("jquery");
+global.lodash = global._ = require("lodash");
+```
+
 - bundle.js - `yarn run build`でビルドしたもの
+    - webpackを使ったシンプルなビルド
 - index.html - bundle.jsを読み込んでる
+    - window.jQueryなどが使える
 
 ## Tips
 
