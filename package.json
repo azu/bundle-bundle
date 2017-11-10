@@ -1,0 +1,36 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "bundle-bundle",
+  "version": "1.0.0",
+  "description": "bundle bundle",
+  "main": "lib/bundle-bundle.js",
+  "scripts": {
+    "build": "webpack index.js bundle.js",
+    "watch": "webpack --watch index.js bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/bundle-bundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/bundle-bundle/issues"
+  },
+  "homepage": "https://github.com/azu/bundle-bundle",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  }
+}
