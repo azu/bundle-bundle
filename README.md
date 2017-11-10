@@ -18,7 +18,7 @@ requireしてbundleするだけ
 
 ```js
 // window.jQueryとwindow.lodashをはやす
-// window.$window._をはやす
+// window.$とindow._をはやす
 global.jQuery = global.$ = require("jquery");
 global.lodash = global._ = require("lodash");
 ```
