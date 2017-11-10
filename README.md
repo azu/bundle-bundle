@@ -8,7 +8,11 @@ requireしてbundleするだけ
 
 ## Usage
 
+以下のコマンドでビルドできる
+
     yarn run build
+
+## プロジェクト構造
 
 - index.js - 読み込む + global(window)に追加する
 
