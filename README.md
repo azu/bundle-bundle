@@ -14,6 +14,15 @@ requireしてbundleするだけ
 - bundle.js - `yarn run build`でビルドしたもの
 - index.html - bundle.jsを読み込んでる
 
+## Tips
+
+[webpack](https://webpack.js.org/ "webpack")はconfig.jsなくても引数だけで超簡単なビルドはできる
+
+    Usage: https://webpack.js.org/api/cli/
+    Usage without config file: webpack <entry> [<entry>] <output>
+    Usage with config file: webpack
+
+
 ## Contributing
 
 1. Fork it!
